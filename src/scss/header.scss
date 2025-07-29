@@ -1,0 +1,58 @@
+
+
+
+// ====================================================Burger===================================================================
+
+/*
+.menu__icon {
+  display: none;
+  z-index: 4;
+  position: relative;
+  width: rem(30);
+  height: rem(18);
+  cursor: pointer;
+}
+
+.menu__icon span,
+.menu__icon::before,
+.menu__icon::after {
+  position: absolute;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.menu__icon::before,
+.menu__icon::after {
+  content: "";
+}
+
+.menu__icon::before {
+  top: 0;
+}
+
+.menu__icon::after {
+  bottom: 0;
+}
+
+.menu__icon span {
+  top: 50%;
+  transform: translateY(-50%) scale(1);
+}
+
+.menu__icon._active span {
+  transition: all 0.3s ease;
+  transform: translateY(-50%) scale(0);
+}
+.menu__icon._active::before {
+  top: 50%;
+  transform: rotate(-45deg) translateY(-50%);
+}
+
+.menu__icon._active::after {
+  bottom: 50%;
+  transform: rotate(45deg) translateY(50%);
+}
+*/

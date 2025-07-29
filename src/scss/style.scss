@@ -1,0 +1,38 @@
+// @import 'fonts';
+@import '_libs';
+@import 'mixins';
+@import 'header';
+@import 'footer';
+// Colors
+// $mainColor: ;
+
+$defaultFz: 16 + px;
+// $fontFamily: ;
+
+// Width`s
+$maxWidth: 1920;
+$maxWidthContainer: 1710;
+
+// Брейк поинты
+$pc: em(maxWidthContainer); //ПК, ноутбуки
+$tablet: em(991.98); // Планшеты
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: $defaultFz;
+}
+
+span {
+    
+}
